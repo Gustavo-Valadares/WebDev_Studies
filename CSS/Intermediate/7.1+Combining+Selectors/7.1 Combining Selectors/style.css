@@ -1,0 +1,24 @@
+/* Write your code here: */
+h1, h2{ /*Group*/
+    color: blueviolet;
+} /*its possible to apply css to two or more tags a the same time*/
+
+.box > .done{ /*Child*/
+    color: firebrick;
+} /*its also possible to referentiate a child class by its father,
+ like its shown above*/
+
+.box li{ /*Descendant*/
+    color: blue;
+} /*we can select a tag by its div, its a godd practice to maintain
+reference to html elements*/
+
+li.done#green{/*Chaining*/
+    color: green;
+}/*a specific way to target a specific html tag, we reference it by taking
+ the exact ids, class, etc*/
+
+ .done ul, p.done{ /*using all at the same time*/
+    color: orange;
+ }
+
