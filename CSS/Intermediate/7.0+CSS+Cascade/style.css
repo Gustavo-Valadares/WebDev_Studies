@@ -1,0 +1,27 @@
+/* Don't change the existing CSS. */
+
+.box {
+  background-color: blue;
+  padding: 10px;
+  
+} /*since all div share the box class, once we add 10px padding ti affects them all*/
+
+p {
+  color: yellow;
+  margin: 0;
+  padding: 0;
+}
+
+#outer-box{
+  color: yellow;
+  background-color: blueviolet;
+}
+
+.inner-box{
+  background-color: red;
+}
+
+.white-text{
+  color: white;
+  
+}
