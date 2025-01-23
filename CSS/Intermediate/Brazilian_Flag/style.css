@@ -1,0 +1,111 @@
+.background-rectangle{
+    background-color: green;
+    position: absolute;
+    width: 400px; /*scale 200*/
+    height: 280px; /*scale 140*/
+
+}
+
+.front-rectangle{
+    background-color: yellow;
+    width: 300px;
+    height: 180px;
+    position: relative;
+    top: 50px;
+    left: 50px;
+}
+
+#circle{
+    position: relative;
+    background-color: blue;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    bottom: 100px;
+    left: 140px;
+}
+
+#top-left-triangle{
+    position: relative;
+    width: 0px;
+    height: 0px;
+    border-top: 0 solid green;
+    border-left: 0 solid #F5D97B; 
+    border-bottom: 0 solid #D94948;
+    border-right: 0 solid #8DB434;
+    background: transparent;
+    border-top-width: 90px;
+    border-left-width: 0px;
+    border-right-width: 150px; 
+    border-bottom-width: 0px;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+
+}
+
+#top-right-triangle{
+    position: relative;
+    width: 0px;
+    height: 0px;
+    background: transparent;
+    border-top: 0 solid green;
+    border-left: 0 solid #F5D97B; 
+    border-bottom: 0 solid #D94948;
+    border-right: 0 solid #8DB434;
+    left: 150px;
+    bottom: 90px;
+    border-top-width: 90px;
+    border-left-width: 150px;
+    border-right-width: 0px; 
+    border-bottom-width: 0px;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+
+}
+
+#bottom-left-triangle{
+    position: relative;
+    width: 0px;
+    height: 0px;
+    border-top: 0 solid #EE7C31;
+    border-left: 0 solid #F5D97B; 
+    border-bottom: 0 solid green;
+    border-right: 0 solid #8DB434;
+    background: transparent;
+    bottom: 90px;
+    border-top-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 150px; 
+    border-bottom-width: 90px;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    border-top-color: transparent;
+
+}
+
+#bottom-right-triangle{
+    position: relative;
+    position: relative;
+    position: relative;
+    width: 0px;
+    height: 0px;
+    border-top: 0 solid #EE7C31;
+    border-left: 0 solid #F5D97B; 
+    border-bottom: 0 solid green;
+    border-right: 0 solid #8DB434;
+    background: transparent;
+    left: 150px;
+    bottom: 180px;
+    border-top-width: 0px;
+    border-left-width: 150px;
+    border-right-width: 0px; 
+    border-bottom-width: 90px;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    border-top-color: transparent;
+}
+
+
+
