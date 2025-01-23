@@ -1,0 +1,23 @@
+.red-text{
+    color: red;
+}
+
+.blue-text{
+    color: blue;
+}
+
+.green-text{
+    color: green
+}
+
+#main{
+    color: yellow
+}
+
+p[draggable]{
+    color: grey
+} /* all paragraph with draggable on it will be grey */
+
+*{
+    color: red
+} /* select all
