@@ -1,0 +1,36 @@
+FLEXBOX
+
+º display: flex 
+allow to position entities of a list in a single line side by side
+flex: occupies teh whole screen
+inline flex: occupies only as much as we need (the lenght of the word)
+
+° flex-direction
+decides if we are going to stack entities of a list in a line (row, by default) or in a collum (collum)
+
+° flex-basis
+decides the height (in case flex-direction: collum) or width (in case flex-direction: row) of the collum/row
+
+° order
+ints possible to change the order of the entities , 0 is default, applying 1 to a specific entitie it will be deaLlocated to the end
+to creat an order we can use 1, 2, 3,...
+
+° flex-wrap:
+by default is nowrap wich makes the items go off screen
+setting to wrap makes the items appear in the bass line 
+
+° justify-content:
+similar to the right, left and center 
+by default is flex-start
+position all intems to left (flex-start) or to the right (flex-end) or to the center (center)
+we can also use space-between, space evenly and space-evenly wich creates spaces between the items
+
+° align-items
+just like justify-content, but in the y axis
+
+°algin-self
+used to change a single item
+
+
+help: https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+https://appbrewery.github.io/flexboxfroggy/

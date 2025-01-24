@@ -1,0 +1,65 @@
+html{
+    background-color: rgb(97, 96, 96);
+}
+
+@media(max-width: 99999px){
+    .price-container{
+        display: flex; /*diplay: flex; allow to use flexbox*/
+        height: 220px;
+        margin-top: 300px;
+        align-content: center; 
+        align-items: center;
+        justify-content: space-around;
+    }
+}
+
+@media (max-width: 480px){
+    .price-container{
+        display: flex; /*allow to use flexbox*/
+        flex-direction: column;
+        height: 220px;
+        margin-top: 300px;
+        align-content: center; 
+        align-items: center;
+        justify-content: space-around;
+    }
+}
+
+button{
+    position: relative;
+    background-color: rgb(107, 156, 10);
+    border-radius: 20px;
+    margin-bottom: 10px;
+    width: 70px;
+    height: 20px;
+    align-self: center;
+    border: 1px solid black
+}
+
+.price-container > div{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 200px;
+    flex-shrink: 0;
+    width: 200px;
+    background-color: rgb(185, 185, 185);
+    border: 3px solid black;
+    border-radius: 20px;
+    margin: 10px
+    
+}
+
+.price-container h2, h4{
+    text-align: center;
+
+}
+
+.price-container h2{
+    margin-top: -25px;
+}
+
+.price-container ul{
+    margin-top: -5px;
+    margin-bottom: 20px;
+}
+

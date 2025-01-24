@@ -1,0 +1,10 @@
+°Priotrity order
+content width < Width < flex-basis < min-width/max-width
+
+°flex-shrink: ;
+allows the item to shrinkas we control the size of the page
+0:  no shrinking
+1: shrinks
+
+°flex-basis
+similar to width and height
