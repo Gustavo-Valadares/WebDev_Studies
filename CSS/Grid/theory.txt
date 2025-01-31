@@ -1,0 +1,45 @@
+°display: grid
+allow us to use grid
+
+°grid-template-columns: 
+we use to set the columns scale 
+if we set grid-template-columns: 1fr 2fr; we'll have a first 100px column and a second 200px column
+we can also set the pixels directly
+
+°grid-template-columns: minmax(400px, 800px)
+decides the minimun and the max a column can shrink and stretch 
+
+°grid-template-columns: repeat(2x, 200px)
+we use to set the amount and size of the columns
+
+°grid-auto-row:
+decides the size of new grid items that get inserted
+
+°grid-template-row:
+same thing, but for rows
+
+°grid-template: 100px 200px / 400px 800px
+another faster way of setting grid
+
+°adding auto
+makes the div automaticaly resposive, expand enough to fill the space and shrinks 
+
+°for sizing and responsiveness
+ppbrewery.github.io/grid-sizing
+
+°grid-column: span 2
+sets how much of the grip a item occupies, span 2 means the widht of the intem goes from the grid 1 to 3
+
+°grid-column-start: & grid-column-enf:
+sets the beginning and the end of the item in the grid
+
+°order:
+by default all items have 0 set as order, by setting an item's order to 1 it goes to the end of the grid
+settingby -1 it goes to the beginning
+
+°grid-area:
+accepts four values separated by slashes: grid-row-start,
+grid-column-start, grid-row-end, followed by grid-column-end.
+
+
+practice: https://cssgridgarden.com/
